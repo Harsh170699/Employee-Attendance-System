@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_Attendance">
+
+    <CheckBox
+        android:id="@+id/ch7"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="563dp"
+        android:onClick="onCheckboxButtonClicked"
+        android:text="Jesal Desai" />
+
+    <CheckBox
+        android:id="@+id/ch6"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="484dp"
+        android:text="Deepak Ramoliya" />
+
+    <CheckBox
+        android:id="@+id/ch5"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="404dp"
+        android:text="Purvi Patel" />
+
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="247dp"
+        android:text="Ruchita Parmar" />
+
+    <CheckBox
+        android:id="@+id/ch4"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="326dp"
+        android:text="Gaurav Patel" />
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="89dp"
+        android:text="Rajan Malhotra" />
+
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="389dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="170dp"
+        android:onClick="onClick"
+        android:text="Nisha Rana" />
+
+    <Button
+        android:id="@+id/firebase_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="onClick"
+        android:text="Add" />
+</RelativeLayout>
